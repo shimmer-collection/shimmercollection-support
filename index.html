@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微光收集馆 - 技术支持</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #F5F3ED 0%, #FDFCFA 100%);
+            color: #4A4A4A;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 40px 0;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #C4AD98 0%, #E4D5C7 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 40px;
+        }
+        
+        h1 {
+            color: #2C2C2C;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #8B8680;
+            font-size: 16px;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.04);
+        }
+        
+        h2 {
+            color: #C4AD98;
+            font-size: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #F5F3ED;
+        }
+        
+        .faq-item {
+            margin-bottom: 24px;
+        }
+        
+        .faq-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .question {
+            font-weight: 600;
+            color: #2C2C2C;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+        
+        .answer {
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #C4AD98 0%, #E4D5C7 100%);
+            color: white;
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .contact-box h2 {
+            color: white;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
+        
+        .email {
+            font-size: 18px;
+            margin: 20px 0;
+            word-break: break-all;
+        }
+        
+        .response-time {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #8B8680;
+            font-size: 14px;
+        }
+        
+        .social-links {
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            color: #C4AD98;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">✨</div>
+            <h1>微光收集馆</h1>
+            <p class="subtitle">把人生当作一座博物馆</p>
+        </header>
+
+        <div class="section">
+            <h2>常见问题</h2>
+            
+            <div class="faq-item">
+                <div class="question">Q: 我的数据存储在哪里？安全吗？</div>
+                <div class="answer">A: 所有数据仅存储在您的设备本地，使用 SwiftData 加密保存。我们不会将任何数据上传到云端服务器，您的回忆完全属于您自己。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Q: 如何备份我的展品数据？</div>
+                <div class="answer">A: 进入 App → 个人中心 → 设置 → 数据与备份 → 导出数据，可将所有展品导出为 JSON 文件保存到文件 App 或 iCloud。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Q: 换手机后如何恢复数据？</div>
+                <div class="answer">A: 在新手机上安装微光收集馆，通过 设置 → 数据与备份 → 导入数据，选择之前导出的 JSON 文件即可恢复。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Q: 需要注册账号吗？</div>
+                <div class="answer">A: 不需要。本 App 无需注册登录，下载即可使用，保护您的隐私。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Q: 时光胶囊到时间后在哪里查看？</div>
+                <div class="answer">A: 解锁后的时光胶囊会自动出现在对应展厅中，您会收到通知提醒。在首页的"即将开启"区域也可以看到倒计时。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">Q: 如何解锁更多展厅主题皮肤？</div>
+                <div class="answer">A: 完成特定体验任务、连续记录天数或解锁隐藏徽章，即可解锁对应展厅的主题皮肤。</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>使用指南</h2>
+            <div class="faq-item">
+                <div class="question">创建展品</div>
+                <div class="answer">在任意展厅点击"+"按钮，选择或拍摄照片，写下你的故事，选择心情标签，即可创建一件独一无二的展品。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">羁绊故事</div>
+                <div class="answer">当特定展品组合出现时，会触发隐藏的羁绊故事。探索不同展厅之间的联系，发现属于你的独特故事线。</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="question">时光机</div>
+                <div class="answer">在发现页面使用时光机功能，随机回顾过去的某一天，让被遗忘的记忆重新发光。</div>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h2>联系我们</h2>
+            <div class="email">📧 support@shimmercollection.app</div>
+            <p class="response-time">我们通常会在 24 小时内回复您的邮件</p>
+        </div>
+
+        <footer>
+            <p>微光收集馆 © 2025</p>
+            <p>让生命中的点点微光，汇聚成独一无二的星河</p>
+        </footer>
+    </div>
+</body>
+</html>
