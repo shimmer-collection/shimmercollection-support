@@ -1,0 +1,1 @@
+# shimmercollection-support
